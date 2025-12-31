@@ -2351,38 +2351,11 @@ ACTION_CONFIRMATION = {
 /export            Export data
 /feedback          View accuracy stats
 /help              Show all commands
-```
 
 ---
 
-## Appendix: Environment Variables
-
-```bash
-# .env.example
-
-# Telegram
-TELEGRAM_BOT_TOKEN=your_bot_token
-
-# LLM APIs
-DEEPSEEK_API_KEY=your_deepseek_key
-GEMINI_API_KEY=your_gemini_key
-
-# Google APIs (for Calendar, Drive)
-GOOGLE_CLIENT_ID=your_client_id
-GOOGLE_CLIENT_SECRET=your_client_secret
-
-# Backup
-GOOGLE_DRIVE_BACKUP_FOLDER_ID=your_folder_id
-
-# App Settings
-DATABASE_PATH=data/mira.db
-LANCEDB_PATH=data/lancedb
-LOG_LEVEL=INFO
-```
-
----
-
-**Document Version:** 1.0  
-**Created:** December 2024  
-**Author:** Claude (for Sahil)  
+**Document Version:** 1.0
+**Created:** December 2024
+**Author:** Claude (for Sahil)
 **Project:** MIRA - Memory-Intelligent Routine Assistant
+```
